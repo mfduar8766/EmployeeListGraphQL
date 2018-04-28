@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(204, 196, 204);
+  font-family: sans-serif;
+}
+
+#list-title {
+  position: relative;
+  right: 35%;
+  text-decoration: underline;
+  margin: .5em;
+  padding: .5m;
+}
+
+#list {
+  list-style-type: none;
+  position: relative;
+  left: 15%;
+  margin: .5em;
+  padding: .5em;
+  width: 30%;
+}
+
+#list li {
+  position: relative;
+  right: 50%;
+  display: block;
+  padding-left: .5em;
+  margin: .5em;
+  border-radius: 4px;
+  border: 1px solid #880E4F;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+/* #list :hover {
+  background: #880E4F;
+  color: white;
+} */
+
+#list :active {
+  background: green;
+  color: white;
+}
+
+form{
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+}
+
+form .field{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form label{
+  text-align: right;
+  padding: 6px;
+}
+
+form input, form select{
+  margin: 4px 0;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+form button{
+  color: #fff;
+  font-size: 2em;
+  background: #AD1457;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#submit {
+  color: #fff;
+  font-size: 2em;
+  background: #AD1457;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#details{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #AD1457;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.dept {
+  
+}
